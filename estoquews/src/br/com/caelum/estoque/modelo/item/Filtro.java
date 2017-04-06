@@ -1,10 +1,8 @@
 package br.com.caelum.estoque.modelo.item;
 
-
 public class Filtro {
 
 	private TipoItem tipo;
-
 	private String nome;
 
 	public TipoItem getTipo() {
