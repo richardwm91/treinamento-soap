@@ -7,13 +7,16 @@ import javax.xml.bind.annotation.XmlElement;
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Item {
 
-	@XmlElement(required = true)
+    @XmlElement(required=true)
 	private String codigo;
-	@XmlElement(required = true)
+   
+    @XmlElement(required=true)
 	private String nome;
-	@XmlElement(required = true)
+    
+    @XmlElement(required=true)
 	private String tipo;
-	@XmlElement(required = true)
+    
+    @XmlElement(required=true)
 	private int quantidade;
 
 	public Item() {
